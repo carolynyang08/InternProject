@@ -1,0 +1,18 @@
+[package]
+name = "interrupts"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = { version = "0.7.4", features = ["critical-section-single-core"]}
+cortex-m-rt = { version = "0.7.3", features = ["device"] }
+panic-itm = "0.4.2"
+stm32f3xx-hal = { version = "0.9.2", features = ["ld", "rt", "stm32f303xc"] }
+embedded-time = "0.12.1"
+vl53l1x-uld = {version = "2.0.0"}
+
+[patch.crates-io]
+vl53l1x-uld = { path = "../vl53l1x-uld-carolyn"}
+

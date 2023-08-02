@@ -1,0 +1,1 @@
+VL53L1X<&mut I2c<I2C1, (stm32f3xx_hal::gpio::Pin<Gpiob, U<6>, Alternate<OpenDrain, 4>>, stm32f3xx_hal::gpio::Pin<Gpiob, U<7>, Alternate<OpenDrain, 4>>)>>

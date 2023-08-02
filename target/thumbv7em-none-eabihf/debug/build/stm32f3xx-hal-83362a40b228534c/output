@@ -1,0 +1,2 @@
+cargo:rustc-link-search=/Users/cyang/Downloads/interrupts/target/thumbv7em-none-eabihf/debug/build/stm32f3xx-hal-83362a40b228534c/out
+cargo:rerun-if-changed=build.rs
